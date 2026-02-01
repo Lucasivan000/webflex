@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.portada_imagen { 
+    width: 900px;
+    height: auto;
+
+}
+h1 {
+    font-size: 50px;
+    background-color: lightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightcyan;
+}
+.redes_sociales {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: violet;
+    font-style:oblique;
+}
+.datos_datos {
+    font-size: 25px;
+    color: red;
+}
+.enlace_formulario {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.enlaces_nav {
+    font-size: 25px;
+    background-color: aliceblue;
+
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px auto 100px;
+    gap: 10px;
+    
+}
+.header {
+    grid-column: 1 / -1;
+
+}
+.main {
+    grid-column: 1 / -1;
+}
+.footer {
+    grid-column: 1 / -1;
+}
