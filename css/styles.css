@@ -67,14 +67,23 @@ p {
     gap: 10px;
     
 }
-.header {
+
+.seguro {
+    display: flex;
+    gap: 15px;
     align-items: center;
+    border-radius: 20px;
+    padding: 20px;
 
 }
-.main {
-    
-}
-.footer {
-    
+.seguro img {
+    height: 180px;
+    width: 220px;
+    object-fit: cover;
+
 }
 
+.textoseguro {
+    display: flex;
+    flex-direction: column;
+}
