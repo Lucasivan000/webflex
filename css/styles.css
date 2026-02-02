@@ -67,13 +67,16 @@ p {
     gap: 10px;
     
 }
-
+ /* pagina servicios */
 .seguro {
     display: flex;
-    gap: 15px;
+    gap: 20px;
     align-items: center;
     border-radius: 20px;
     padding: 20px;
+    border: solid blue;
+    margin: 20px;
+    background-color: lightcyan;
 
 }
 .seguro img {
@@ -87,3 +90,25 @@ p {
     display: flex;
     flex-direction: column;
 }
+.botonAtencion {
+  text-align: center;       
+  margin: 30px 0;           
+}
+.botonAtencion a {
+    display: inline-block;
+    padding: 20px 15px;
+    color: blue;
+    background-color: lightblue;
+    border-radius: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.botonAtencion a:hover{
+    box-sizing: border-box;
+    box-shadow: red;
+
+}
+
+
