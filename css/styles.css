@@ -107,8 +107,17 @@ p {
     position: fixed;
     bottom: 35px;
     right: 5%;
-    z-index: 1000;
+
 
 }
-
+/*Texto principal de las paginas*/
+.textoPrincipal {
+    display: flex;
+    border: solid;
+    flex-direction: column;
+}
+.subTextoPrincipal {
+    margin: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
 
