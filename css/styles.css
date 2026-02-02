@@ -51,12 +51,14 @@ p {
 
 }
 .enlaces_nav a {
-    display: block;
+    display: inline-block;
     padding: 15px 25px;
     border-radius: 6px;
     cursor: pointer;
     color: blue;
     text-decoration: none;
+    border: solid;
+    background-color:lightblue;
 
 }
 
@@ -90,8 +92,7 @@ p {
     display: flex;
     flex-direction: column;
 }
-.botonAtencion {
-  text-align: center;       
+.botonAtencion {      
   margin: 30px 0;           
 }
 .botonAtencion a {
@@ -103,11 +104,10 @@ p {
     font-weight: bold;
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
-}
-.botonAtencion a:hover{
-    box-sizing: border-box;
-    box-shadow: red;
+    position: fixed;
+    bottom: 35px;
+    right: 5%;
+    z-index: 1000;
 
 }
 
