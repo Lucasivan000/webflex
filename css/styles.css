@@ -243,6 +243,12 @@ pantallas chicas*/
         font-size: 20px;
     }
 
+    .header {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 20px;
+    }
+
     .footer {
         flex-direction: column;
         gap: 10px;
