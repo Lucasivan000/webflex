@@ -243,11 +243,10 @@ pantallas chicas*/
         font-size: 20px;
     }
 
-    .header {
-        flex-direction: column;
-        gap: 10px;
-        font-size: 20px;
-    }
+    .portada {
+        height: 60vh;
+    }    
+       
 
     .footer {
         flex-direction: column;
@@ -257,9 +256,11 @@ pantallas chicas*/
 
     .formularioContacto {
         padding: 10px;
+        flex-direction: column;
     }
 
     .formularioContacto h1 {
         font-size: 20px;
+        flex-direction: column ;
     }
 }
