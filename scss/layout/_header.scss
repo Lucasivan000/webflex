@@ -39,7 +39,15 @@
     font-size: $fuente-tamanio-p;
     box-sizing: border-box;
     min-width: 120px;   
-    min-height: 50px;    
+    min-height: 50px;  
+    
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+    border-color: $enlace-color; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+
   }
 
  
