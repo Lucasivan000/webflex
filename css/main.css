@@ -188,8 +188,9 @@ p {
 }
 @media (max-width: 375px) {
   .portada_imagen {
-    height: 70vh;
-    object-position: center 25%;
+    height: auto;
+    object-fit: contain;
+    object-position: center center;
   }
 }
 
