@@ -1,33 +1,67 @@
 .portada_imagen {
-    width: 100%;
-    height: 50vh;
-    object-fit: cover;
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
 
+  
+  @media (max-width: 768px) and (min-width: 376px) {
+    height: 40vh;
+  }
+
+  
+  @media (max-width: 375px) {
+    height: 30vh;
+  }
 }
+
 .enlaces_nav {
-    display: flex;
-    font-size: 30px;
-    background-color: $fondo-color-enlaces;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
-    padding: 20px;
-    list-style: none;
-    margin: 0;
+  display: flex;
+  font-size: 30px;
+  background-color: $fondo-color-enlaces;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px;
+  list-style: none;
+  margin: 0;
 
+  
+  @media (max-width: 768px) and (min-width: 376px) {
+    flex-direction: column;
+    gap: 15px;
+    font-size: 24px;
+    padding: 15px;
+  }
 
+  
+  @media (max-width: 375px) {
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+    padding: 10px;
+  }
 }
+
 .enlaces_nav a {
-    display: inline-block;
-    padding: 15px 25px;
-    border-radius: 6px;
-    cursor: pointer;
-    color: $enlace-color;
-    text-decoration: none;
-    border: solid;
-    background-color: $fondo-color-celeste;
-;
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: $enlace-color;
+  text-decoration: none;
+  border: solid;
+  background-color: $fondo-color-celeste;
 
+  
+  @media (max-width: 768px) and (min-width: 376px) {
+    padding: 12px 20px;
+  }
+
+  
+  @media (max-width: 375px) {
+    padding: 8px 15px;
+  }
 }
+
 
 

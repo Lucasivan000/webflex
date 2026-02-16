@@ -1,40 +1,88 @@
-/* Pagina de formulario */
-
 .formularioContacto {
-    display: flex;
-    justify-content: center;
-    background-color: $fondo-color-formulario; 
-    padding: 25px 25px;
+  display: flex;
+  justify-content: center;
+  background-color: $fondo-color-formulario; 
+  padding: 25px 25px;
+
+  
+  @media (max-width: 768px) and (min-width: 376px) {
+    padding: 20px 20px;
+  }
+
+ 
+  @media (max-width: 375px) {
+    padding: 15px 15px;
+  }
 }
 
 .tituloFormulario {
-    border: solid black;
-    margin: 20px 20px;
+  border: solid black;
+  margin: 20px 20px;
+
+  @media (max-width: 768px) and (min-width: 376px) {
+    margin: 15px 15px;
+  }
+
+  @media (max-width: 375px) {
+    margin: 10px 10px;
+  }
 }
 
 .tituloFormulario h1 {
-    text-align: center;
-    background-color: $fondo-color-celeste;
+  text-align: center;
+  background-color: $fondo-color-celeste;
 
+  @media (max-width: 768px) and (min-width: 376px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 375px) {
+    font-size: 22px;
+  }
 }
 
 .datosFormulario {
-    display: flex;
-    flex-direction: column;
-    font-size: large;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  gap: 20px;
 
+  @media (max-width: 768px) and (min-width: 376px) {
+    gap: 15px;
+  }
+
+  @media (max-width: 375px) {
+    gap: 10px;
+  }
 }
 
 .datosFormulario label {
-    display: block;
-    margin: 10px;
+  display: block;
+  margin: 10px;
+
+  @media (max-width: 768px) and (min-width: 376px) {
+    margin: 8px;
+    font-size: 16px;
+  }
+
+  @media (max-width: 375px) {
+    margin: 5px;
+    font-size: 14px;
+  }
 }
 
 .datosFormulario input,
 .datosFormulario select,
 .datosFormulario textarea {
-    padding: 10px;
-    width: 100%;
-    border: $borde-fino;
+  padding: 10px;
+  width: 100%;
+  border: $borde-fino;
+
+  @media (max-width: 768px) and (min-width: 376px) {
+    padding: 8px;
+  }
+
+  @media (max-width: 375px) {
+    padding: 6px;
+  }
 }

@@ -1,38 +1,76 @@
-/* fotter */
-.footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: $fondo-color-celeste;
-    padding: 20px;
-    border: $borde-grueso;
-    gap: 40px;
 
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: $fondo-color-celeste;
+  padding: 20px;
+  border: $borde-grueso;
+  gap: 40px;
+
+  
+  @media (max-width: 768px) and (min-width: 376px) {
+    flex-direction: column;
+    gap: 25px;
+    padding: 15px;
+  }
+
+ 
+  @media (max-width: 375px) {
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+  }
 }
 
 .footer img {
-    border: $borde-grueso;
-    border-radius: 25px;
-    max-width: 150px;
-    height: auto;
+  border: $borde-grueso;
+  border-radius: 25px;
+  max-width: 150px;
+  height: auto;
+
+  @media (max-width: 768px) and (min-width: 376px) {
+    max-width: 120px;
+  }
+
+  @media (max-width: 375px) {
+    max-width: 90px;
+  }
 }
 
 .redesSociales {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+
+  @media (max-width: 768px) and (min-width: 376px) {
+    gap: 4px;
+  }
+
+  @media (max-width: 375px) {
+    gap: 3px;
+  }
 }
 
 .redesSociales a {
-    display: inline-block;
-    padding: 15px 20px;
-    text-decoration: none;
-    margin: 5px;
-    background-color: aqua;
-    border: $borde-grueso;
-    font-family: $fuente-texto;
-    font-size: large;
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  margin: 5px;
+  background-color: aqua;
+  border: $borde-grueso;
+  font-family: $fuente-texto;
+  font-size: large;
 
+  @media (max-width: 768px) and (min-width: 376px) {
+    padding: 12px 15px;
+    font-size: medium;
+  }
+
+  @media (max-width: 375px) {
+    padding: 8px 10px;
+    font-size: small;
+  }
 }
