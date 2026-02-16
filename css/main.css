@@ -512,6 +512,15 @@ p {
   }
 }
 
+.TextoPrincipal h2 {
+  color: rgb(4, 4, 83);
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.TextoPrincipal p {
+  font-family: "Times New Roman", Times, serif;
+}
+
 .imagenesInicio {
   display: flex;
   flex-direction: row;
