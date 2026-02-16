@@ -182,13 +182,13 @@ p {
 }
 @media (max-width: 768px) and (min-width: 376px) {
   .portada_imagen {
-    height: 40vh;
+    height: auto;
     object-fit: contain;
   }
 }
 @media (max-width: 375px) {
   .portada_imagen {
-    height: 30vh;
+    height: auto;
     object-fit: contain;
   }
 }
