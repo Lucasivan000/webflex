@@ -1,6 +1,8 @@
-.TextoPrincipal {
+.textoPrincipal {
     h2 {
         color: $fuente-color;
+        font-size: 25px;
+        font-family: $fuente-texto;
         margin-top: 30px;
         margin-bottom: 15px;
     }

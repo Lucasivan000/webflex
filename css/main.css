@@ -512,12 +512,14 @@ p {
   }
 }
 
-.TextoPrincipal h2 {
+.textoPrincipal h2 {
   color: rgb(4, 4, 83);
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
   margin-top: 30px;
   margin-bottom: 15px;
 }
-.TextoPrincipal p {
+.textoPrincipal p {
   font-family: "Times New Roman", Times, serif;
 }
 
