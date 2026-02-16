@@ -102,6 +102,16 @@ p {
   position: fixed;
   bottom: 35px;
   right: 5%;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+.botonAtencion a:hover {
+  color: scale(blue, 10%);
+  text-shadow: 0 0 5px rgba(0, 0, 255, 0.3);
+}
+.botonAtencion a:active {
+  background-color: scale(lightseagreen, 5%);
+  color: scale(blue, 15%);
+  text-shadow: 0 0 8px rgba(0, 0, 255, 0.4);
 }
 @media (max-width: 768px) and (min-width: 376px) {
   .botonAtencion a {
@@ -209,8 +219,14 @@ p {
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 .enlaces_nav a:hover {
+  background-color: scale(lightblue, 5%);
   border-color: blue;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.enlaces_nav a:active {
+  background-color: scale(lightseagreen, 5%);
+  color: scale(blue, 15%);
+  text-shadow: 0 0 8px rgba(0, 0, 255, 0.4);
 }
 @media (max-width: 768px) and (min-width: 376px) {
   .enlaces_nav {
