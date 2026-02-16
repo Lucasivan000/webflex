@@ -45,7 +45,8 @@
 
   a {
     display: block; 
-    width: auto;    
+    width: 100%;
+    max-width: 150px;
     padding: 15px 25px;
     border-radius: 6px;
     cursor: pointer;
@@ -53,6 +54,7 @@
     text-decoration: none;
     border: solid;
     background-color: $fondo-color-celeste;
+    text-align: center; 
 
     @media (max-width: 768px) and (min-width: 376px) {
       padding: 12px 20px;

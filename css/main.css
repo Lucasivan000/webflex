@@ -214,7 +214,8 @@ p {
 }
 .enlaces_nav a {
   display: block;
-  width: auto;
+  width: 100%;
+  max-width: 150px;
   padding: 15px 25px;
   border-radius: 6px;
   cursor: pointer;
@@ -222,6 +223,7 @@ p {
   text-decoration: none;
   border: solid;
   background-color: lightblue;
+  text-align: center;
 }
 @media (max-width: 768px) and (min-width: 376px) {
   .enlaces_nav a {
