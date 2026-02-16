@@ -1,0 +1,23 @@
+.seguro {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    border: solid blue;
+    margin: 20px;
+    background-color: lightcyan;
+
+}
+
+.seguro img {
+    height: 180px;
+    width: 220px;
+    object-fit: cover;
+
+}
+
+.textoseguro {
+    display: flex;
+    flex-direction: column;
+}

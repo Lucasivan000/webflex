@@ -1,0 +1,40 @@
+/* Pagina de formulario */
+
+.formularioContacto {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    padding: 25px 25px;
+}
+
+.tituloFormulario {
+    border: solid black;
+    margin: 20px 20px;
+}
+
+.tituloFormulario h1 {
+    text-align: center;
+    background-color: lightblue;
+
+}
+
+.datosFormulario {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    gap: 20px;
+
+}
+
+.datosFormulario label {
+    display: block;
+    margin: 10px;
+}
+
+.datosFormulario input,
+.datosFormulario select,
+.datosFormulario textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid black;
+}
