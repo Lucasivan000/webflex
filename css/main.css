@@ -212,6 +212,10 @@ p {
     justify-items: center;
   }
 }
+.enlaces_nav a {
+  display: block;
+  width: auto;
+}
 
 .enlaces_nav a {
   display: inline-block;
