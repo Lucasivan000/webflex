@@ -27,16 +27,16 @@
 
   @media (max-width: 768px) and (min-width: 376px) {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
     font-size: 24px;
     padding: 15px;
-    justify-items: center; 
+    justify-items: center;
   }
 
   @media (max-width: 375px) {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     font-size: 18px;
     padding: 10px;
@@ -44,9 +44,9 @@
   }
 
   a {
-    display: block; 
-    width: 100%;     
-    padding: 12px 0; 
+    display: block;
+    width: 100%;        
+    padding: 12px 0;    
     border-radius: 6px;
     cursor: pointer;
     color: $enlace-color;
@@ -56,6 +56,7 @@
     text-align: center; 
   }
 }
+
 
 
 
