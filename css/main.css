@@ -204,6 +204,8 @@ p {
   text-align: center;
   font-size: 20px;
   box-sizing: border-box;
+  min-width: 120px;
+  min-height: 50px;
 }
 @media (max-width: 768px) and (min-width: 376px) {
   .enlaces_nav {
@@ -213,9 +215,12 @@ p {
   }
   .enlaces_nav a {
     width: 100%;
-    padding: 12px 0;
+    height: 60px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 18px;
-    text-align: center;
     box-sizing: border-box;
   }
 }
@@ -227,9 +232,12 @@ p {
   }
   .enlaces_nav a {
     width: 100%;
-    padding: 10px 0;
+    height: 55px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
-    text-align: center;
     box-sizing: border-box;
   }
 }
