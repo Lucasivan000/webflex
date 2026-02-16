@@ -1,48 +1,22 @@
-.portada_imagen {
-   
-    object-fit: cover;
 
-}
 
 h1 {
-    font-size: 50px;
-    background-color: lightblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: $fuente-tamanio-h1;
+    background-color: $fondo-color-h1;
+    font-family: $fuente-texto;
     text-align: center;
     text-transform: uppercase;
 }
 
 p {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: lightcyan;
+    font-size: $fuente-tamanio-p;
+    font-family: $fuente-texto;
+    background-color: $fondo-color-p;
 }
 
-.enlaces_nav {
-    display: flex;
-    font-size: 30px;
-    background-color: aliceblue;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
-    padding: 20px;
-    list-style: none;
-    margin: 0;
 
 
-}
 
-.enlaces_nav a {
-    display: inline-block;
-    padding: 15px 25px;
-    border-radius: 6px;
-    cursor: pointer;
-    color: blue;
-    text-decoration: none;
-    border: solid;
-    background-color: lightblue;
-
-}
 
 .container {
     display: grid;
@@ -67,18 +41,18 @@ p {
 
 .botonAtencion {
     margin: 30px 0;
-    border: 2px solid black;
+    border: $borde-grueso;
 }
 
 .botonAtencion a {
     display: inline-block;
     padding: 20px 15px;
     color: blue;
-    background-color: lightseagreen;
+    background-color: $fondo-color-boton;
     border-radius: 15px;
     font-weight: bold;
     text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: $fuente-boton; 
     position: fixed;
     bottom: 35px;
     right: 5%;
@@ -90,18 +64,18 @@ p {
 /*Texto principal de las paginas*/
 .textoPrincipal {
     display: flex;
-    border: solid blue;
+    border: $borde-texto-principal;
     flex-direction: column;
     margin: 15px;
 }
 
 .subTextoPrincipal {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: $fuente-texto;
     padding: 15px;
 }
 
 .seccionDatos {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: $fuente-texto;
     padding: 15px;
 
 }

@@ -3,7 +3,7 @@
 .formularioContacto {
     display: flex;
     justify-content: center;
-    background-color: beige;
+    background-color: $fondo-color-fomulario; 
     padding: 25px 25px;
 }
 
@@ -14,7 +14,7 @@
 
 .tituloFormulario h1 {
     text-align: center;
-    background-color: lightblue;
+    background-color: $fondo-color-celeste;
 
 }
 
@@ -36,5 +36,5 @@
 .datosFormulario textarea {
     padding: 10px;
     width: 100%;
-    border: 1px solid black;
+    border: $borde-fino;
 }
