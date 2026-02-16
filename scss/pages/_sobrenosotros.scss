@@ -1,15 +1,33 @@
 .textoPrincipal {
-    h2 {
-        color: $fuente-color;
-        font-size: 35px;
-        font-family: $fuente-texto;
-        margin-top: 30px;
-        margin-bottom: 15px;
-    }
-    p {
-        font-family: $fuente-texto;
-        font-size: 25px;
+  h2 {
+    color: $fuente-color;
+    font-size: 35px;
+    font-family: $fuente-texto;
+    margin-top: 30px;
+    margin-bottom: 15px;
 
+    
+    @media (max-width: 768px) {
+      font-size: 28px;
     }
 
+    
+    @media (max-width: 375px) {
+      font-size: 22px;
+    }
+  }
+
+  p {
+    font-family: $fuente-texto;
+    font-size: 25px;
+
+    
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
+
+    @media (max-width: 375px) {
+      font-size: 16px;
+    }
+  }
 }
