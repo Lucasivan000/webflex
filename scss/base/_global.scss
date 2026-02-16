@@ -1,50 +1,83 @@
-
-
 h1 {
-    font-size: $fuente-tamanio-h1;
-    background-color: $fondo-color-celeste;
-    font-family: $fuente-texto;
-    text-align: center;
-    text-transform: uppercase;
+  font-size: $fuente-tamanio-h1;
+  background-color: $fondo-color-celeste;
+  font-family: $fuente-texto;
+  text-align: center;
+  text-transform: uppercase;
+
+  
+  @media (max-width: 768px) and (min-width: 376px) {
+    font-size: 40px;
+  }
+
+  
+  @media (max-width: 375px) {
+    font-size: 30px;
+  }
 }
 
 p {
-    font-size: $fuente-tamanio-p;
-    font-family: $fuente-texto;
-    background-color: $fondo-color-p;
+  font-size: $fuente-tamanio-p;
+  font-family: $fuente-texto;
+  background-color: $fondo-color-p;
+
+  @media (max-width: 768px) and (min-width: 376px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: 375px) {
+    font-size: 16px;
+  }
 }
-
-
-
-
 
 .container {
-    display: grid;
-    grid-template-rows: 600px auto 200px;
-    gap: 10px;
+  display: grid;
+  grid-template-rows: 600px auto 200px;
+  gap: 10px;
 
+  @media (max-width: 768px) and (min-width: 376px) {
+    grid-template-rows: auto;
+    padding: 10px;
+  }
+
+  @media (max-width: 375px) {
+    grid-template-rows: auto;
+    padding: 5px;
+  }
 }
-
 
 .datos_datos {
-    font-size: 25px;
-    color: red;
-}
+  font-size: 25px;
+  color: red;
 
+  @media (max-width: 768px) and (min-width: 376px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 375px) {
+    font-size: 18px;
+  }
+}
 
 .enlace_formulario {
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 
+  @media (max-width: 768px) and (min-width: 376px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 375px) {
+    font-size: 16px;
+  }
+}
 
 .botonAtencion {
-    margin: 30px 0;
-    border: $borde-grueso;
-}
+  margin: 30px 0;
+  border: $borde-grueso;
 
-.botonAtencion a {
+  a {
     display: inline-block;
     padding: 20px 15px;
     color: blue;
@@ -52,30 +85,62 @@ p {
     border-radius: 15px;
     font-weight: bold;
     text-decoration: none;
-    font-family: $fuente-boton; 
+    font-family: $fuente-boton;
     position: fixed;
     bottom: 35px;
     right: 5%;
 
+    @media (max-width: 768px) and (min-width: 376px) {
+      padding: 15px 12px;
+      font-size: 18px;
+      bottom: 25px;
+    }
 
-
+    @media (max-width: 375px) {
+      padding: 10px 8px;
+      font-size: 16px;
+      bottom: 15px;
+    }
+  }
 }
 
-/*Texto principal de las paginas*/
 .textoPrincipal {
-    display: flex;
-    border: $borde-texto-principal;
-    flex-direction: column;
-    margin: 15px;
+  display: flex;
+  border: $borde-texto-principal;
+  flex-direction: column;
+  margin: 15px;
+
+  @media (max-width: 768px) and (min-width: 376px) {
+    margin: 10px;
+  }
+
+  @media (max-width: 375px) {
+    margin: 5px;
+  }
 }
 
 .subTextoPrincipal {
-    font-family: $fuente-texto;
-    padding: 15px;
+  font-family: $fuente-texto;
+  padding: 15px;
+
+  @media (max-width: 768px) and (min-width: 376px) {
+    padding: 12px;
+  }
+
+  @media (max-width: 375px) {
+    padding: 8px;
+  }
 }
 
 .seccionDatos {
-    font-family: $fuente-texto;
-    padding: 15px;
+  font-family: $fuente-texto;
+  padding: 15px;
 
+  @media (max-width: 768px) and (min-width: 376px) {
+    padding: 12px;
+  }
+
+  @media (max-width: 375px) {
+    padding: 8px;
+  }
 }
