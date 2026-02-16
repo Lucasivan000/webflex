@@ -13,7 +13,7 @@
     height: 30vh;
   }
 }
-
+// botones del menu
 .enlaces_nav {
   display: flex;
   justify-content: center;
@@ -37,38 +37,40 @@
     font-weight: bold;
     text-align: center;
     font-size: $fuente-tamanio-p;
+    box-sizing: border-box; 
   }
 
   
   @media (max-width: 768px) and (min-width: 376px) {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
+    grid-template-columns: repeat(2, 1fr); 
     gap: 15px;
 
     a {
-      width: 100%;       
-      max-width: 140px;   
-      padding: 12px 0;
+      width: 100%;      
+      padding: 12px 0;  
       font-size: 18px;
+      text-align: center;
+      box-sizing: border-box;
     }
   }
 
- 
+  
   @media (max-width: 375px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
     gap: 10px;
 
     a {
-      width: 100%;        
-      max-width: 120px;   
+      width: 100%;
       padding: 10px 0;
       font-size: 16px;
+      text-align: center;
+      box-sizing: border-box;
     }
   }
 }
+
 
 
 
