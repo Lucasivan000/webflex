@@ -34,7 +34,6 @@
     justify-items: center; 
   }
 
-
   @media (max-width: 375px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -47,30 +46,26 @@
   a {
     display: block; 
     width: auto;    
+    padding: 15px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: $enlace-color;
+    text-decoration: none;
+    border: solid;
+    background-color: $fondo-color-celeste;
+
+    @media (max-width: 768px) and (min-width: 376px) {
+      padding: 12px 20px;
+    }
+
+    @media (max-width: 375px) {
+      padding: 8px 15px;
+    }
   }
 }
 
 
-.enlaces_nav a {
-  display: inline-block;
-  padding: 15px 25px;
-  border-radius: 6px;
-  cursor: pointer;
-  color: $enlace-color;
-  text-decoration: none;
-  border: solid;
-  background-color: $fondo-color-celeste;
 
-  
-  @media (max-width: 768px) and (min-width: 376px) {
-    padding: 12px 20px;
-  }
-
-  
-  @media (max-width: 375px) {
-    padding: 8px 15px;
-  }
-}
 
 
 

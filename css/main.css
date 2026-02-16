@@ -215,10 +215,6 @@ p {
 .enlaces_nav a {
   display: block;
   width: auto;
-}
-
-.enlaces_nav a {
-  display: inline-block;
   padding: 15px 25px;
   border-radius: 6px;
   cursor: pointer;
