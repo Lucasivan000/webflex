@@ -74,6 +74,13 @@ p {
   }
 }
 
+
+@keyframes pulso {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+
 .botonAtencion {
   margin: 30px 0;
   border: $borde-grueso;
@@ -91,16 +98,19 @@ p {
     bottom: 35px;
     right: 5%;
 
-    transition: color 0.3s ease, text-shadow 0.3s ease;
+    transition: color 0.3s ease, text-shadow 0.3s ease, transform 0.3s ease;
+
+    animation: pulso 2s infinite ease-in-out;
 
     &:hover {
-    color: scale(blue, 10%); 
-    text-shadow: 0 0 5px rgba(0,0,255,0.3);
+      color: adjust(blue, 10%); 
+      text-shadow: 0 0 5px rgba(0,0,255,0.3);
     }
+
     &:active {
-    background-color: scale($fondo-color-boton, 5%);
-    color: scale(blue, 15%);
-    text-shadow: 0 0 8px rgba(0,0,255,0.4);
+      background-color: adjust($fondo-color-boton, 5%);
+      color: adjust(blue, 15%);
+      text-shadow: 0 0 8px rgba(0,0,255,0.4);
     }
 
     @media (max-width: 768px) and (min-width: 376px) {
@@ -116,6 +126,7 @@ p {
     }
   }
 }
+
 
 .textoPrincipal {
   display: flex;

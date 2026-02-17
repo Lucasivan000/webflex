@@ -86,6 +86,17 @@ p {
   }
 }
 
+@keyframes pulso {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .botonAtencion {
   margin: 30px 0;
   border: 2px solid black;
@@ -102,15 +113,16 @@ p {
   position: fixed;
   bottom: 35px;
   right: 5%;
-  transition: color 0.3s ease, text-shadow 0.3s ease;
+  transition: color 0.3s ease, text-shadow 0.3s ease, transform 0.3s ease;
+  animation: pulso 2s infinite ease-in-out;
 }
 .botonAtencion a:hover {
-  color: scale(blue, 10%);
+  color: adjust(blue, 10%);
   text-shadow: 0 0 5px rgba(0, 0, 255, 0.3);
 }
 .botonAtencion a:active {
-  background-color: scale(lightseagreen, 5%);
-  color: scale(blue, 15%);
+  background-color: adjust(lightseagreen, 5%);
+  color: adjust(blue, 15%);
   text-shadow: 0 0 8px rgba(0, 0, 255, 0.4);
 }
 @media (max-width: 768px) and (min-width: 376px) {
