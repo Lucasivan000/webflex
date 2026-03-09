@@ -106,6 +106,17 @@
   align-items: center;
 }
 
+@media (max-width: 991px) {
+  .navbar-collapse .enlaces_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar-collapse .enlaces_nav a {
+    width: 100%;
+  }
+}
 
 
 
