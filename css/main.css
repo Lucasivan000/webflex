@@ -289,6 +289,14 @@ p {
   }
 }
 
+.navbar {
+  padding: 0;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
 .footer {
   display: flex;
   flex-direction: row;
