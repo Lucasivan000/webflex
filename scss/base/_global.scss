@@ -170,22 +170,4 @@ p {
 }
 
 
-@media (max-width: 991px) {
 
-  .navbar-nav.enlaces_nav {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 10px;
-  }
-
-  .navbar-nav.enlaces_nav li {
-    width: 100%;
-  }
-
-  .navbar-nav.enlaces_nav a {
-    width: 100%;
-    padding: 15px;
-  }
-
-}
