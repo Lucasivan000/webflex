@@ -169,10 +169,21 @@ p {
   }
 }
 
-.navbar {
-  padding: 0;
-}
 
-.navbar-nav {
-  align-items: center;
+@media (max-width: 991px) {
+  .navbar-collapse .enlaces_nav {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px;
+  }
+
+  .navbar-collapse .enlaces_nav li {
+    width: 100%;
+  }
+
+  .navbar-collapse .enlaces_nav a {
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+  }
 }
