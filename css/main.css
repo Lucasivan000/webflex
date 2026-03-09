@@ -247,7 +247,11 @@ p {
   text-shadow: 0 0 8px rgba(0, 0, 255, 0.4);
 }
 @media (max-width: 768px) {
-  .enlaces_nav a {
+  .enlaces_nav .enlaces_nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .enlaces_nav .enlaces_nav a {
     width: 80%;
     margin: 0 auto;
   }
