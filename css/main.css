@@ -246,6 +246,12 @@ p {
   color: scale(blue, 15%);
   text-shadow: 0 0 8px rgba(0, 0, 255, 0.4);
 }
+@media (max-width: 768px) {
+  .enlaces_nav a {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
 
 .navbar {
   padding: 0;
