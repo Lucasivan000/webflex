@@ -1,5 +1,9 @@
  Página Web – Seguros Fulano
 
+ Se puede acceder a la pagina mediante servidor gratuito
+
+  https://segurosfulano.page.gd/
+
 Este proyecto es una página web creada como trabajo práctico.  
 El objetivo principal es presentar distintos tipos de seguros y facilitar el contacto con posibles clientes.
 
@@ -33,4 +37,6 @@ La página se adapta correctamente a:
 - Computadoras
 - Tablets
 - Celulares
+
+  
  
