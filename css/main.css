@@ -117,12 +117,12 @@ p {
   animation: pulso 2s infinite ease-in-out;
 }
 .botonAtencion a:hover {
-  color: adjust(blue, 10%);
+  color: #3333ff;
   text-shadow: 0 0 5px rgba(0, 0, 255, 0.3);
 }
 .botonAtencion a:active {
-  background-color: adjust(lightseagreen, 5%);
-  color: adjust(blue, 15%);
+  background-color: rgb(35.8857142857, 199.6142857143, 190.6428571429);
+  color: rgb(76.5, 76.5, 255);
   text-shadow: 0 0 8px rgba(0, 0, 255, 0.4);
 }
 @media (max-width: 768px) and (min-width: 376px) {

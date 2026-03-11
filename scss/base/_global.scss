@@ -103,13 +103,13 @@ p {
     animation: pulso 2s infinite ease-in-out;
 
     &:hover {
-      color: adjust(blue, 10%); 
+      color: lighten(blue, 10%); 
       text-shadow: 0 0 5px rgba(0,0,255,0.3);
     }
 
     &:active {
-      background-color: adjust($fondo-color-boton, 5%);
-      color: adjust(blue, 15%);
+      background-color: lighten($fondo-color-boton, 5%);
+      color: lighten(blue, 15%);
       text-shadow: 0 0 8px rgba(0,0,255,0.4);
     }
 
