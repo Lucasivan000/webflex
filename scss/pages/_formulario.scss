@@ -1,88 +1,106 @@
+
+.formularioEstilo {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
 .formularioContacto {
-  display: flex;
-  justify-content: center;
-  background-color: $fondo-color-formulario; 
-  padding: 25px 25px;
-
-  
-  @media (max-width: 768px) and (min-width: 376px) {
-    padding: 20px 20px;
-  }
-
- 
-  @media (max-width: 375px) {
-    padding: 15px 15px;
-  }
+    background: #ffffff;
+    width: 100%;
+    max-width: 420px;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
 }
 
-.tituloFormulario {
-  border: solid black;
-  margin: 20px 20px;
-
-  @media (max-width: 768px) and (min-width: 376px) {
-    margin: 15px 15px;
-  }
-
-  @media (max-width: 375px) {
-    margin: 10px 10px;
-  }
-}
 
 .tituloFormulario h1 {
-  text-align: center;
-  background-color: $fondo-color-celeste;
-
-  @media (max-width: 768px) and (min-width: 376px) {
-    font-size: 28px;
-  }
-
-  @media (max-width: 375px) {
-    font-size: 22px;
-  }
+    text-align: center;
+    color: #0d47a1;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
 }
+
 
 .datosFormulario {
-  display: flex;
-  flex-direction: column;
-  font-size: large;
-  gap: 20px;
-
-  @media (max-width: 768px) and (min-width: 376px) {
-    gap: 15px;
-  }
-
-  @media (max-width: 375px) {
-    gap: 10px;
-  }
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
 }
+
 
 .datosFormulario label {
-  display: block;
-  margin: 10px;
-
-  @media (max-width: 768px) and (min-width: 376px) {
-    margin: 8px;
-    font-size: 16px;
-  }
-
-  @media (max-width: 375px) {
-    margin: 5px;
-    font-size: 14px;
-  }
+    font-size: 0.9rem;
+    color: #333;
+    font-weight: 600;
 }
 
-.datosFormulario input,
+
+.datosFormulario input[type="text"],
+.datosFormulario input[type="email"],
+.datosFormulario input[type="tel"],
 .datosFormulario select,
 .datosFormulario textarea {
-  padding: 10px;
-  width: 100%;
-  border: $borde-fino;
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #cfd8dc;
+    font-size: 0.95rem;
+    transition: border 0.2s, box-shadow 0.2s;
+}
 
-  @media (max-width: 768px) and (min-width: 376px) {
-    padding: 8px;
-  }
 
-  @media (max-width: 375px) {
-    padding: 6px;
-  }
+.datosFormulario textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+
+.datosFormulario input:focus,
+.datosFormulario select:focus,
+.datosFormulario textarea:focus {
+    outline: none;
+    border-color: #2196f3;
+    box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.2);
+}
+
+
+.datosFormulario input[type="radio"] {
+    width: auto;
+    margin-top: 5px;
+}
+
+.datosFormulario input[type="submit"] {
+    margin-top: 10px;
+    background: linear-gradient(135deg, #1e88e5, #1565c0);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+.datosFormulario input[type="submit"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(30, 136, 229, 0.35);
+}
+
+
+@media (max-width: 480px) {
+    .formularioContacto {
+        padding: 22px;
+    }
+
+    .tituloFormulario h1 {
+        font-size: 1.4rem;
+    }
 }
