@@ -1,0 +1,43 @@
+/* BOTON DE CONTACTO*/
+.botonCotizacion {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+
+.botonCotizacion a {
+    background-color: #1e88e5; 
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: background-color 0.2s, transform 0.2s, box-shadow 0.2s;
+    text-align: center;
+}
+
+
+.botonCotizacion a:hover {
+    background-color: #1565c0;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(21, 101, 192, 0.35);
+}
+
+
+.botonCotizacion a:active {
+    transform: scale(0.97);
+    box-shadow: 0 3px 8px rgba(21, 101, 192, 0.4);
+}
+
+
+@media (max-width: 768px) {
+    .botonCotizacion a {
+        width: 90%;
+        max-width: 320px;
+        font-size: 0.95rem;
+        padding: 14px;
+    }
+}

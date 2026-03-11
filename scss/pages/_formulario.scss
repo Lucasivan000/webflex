@@ -21,7 +21,7 @@
 
 .tituloFormulario h1 {
     text-align: center;
-    color: #0d47a1;
+    color: $fondo-color-formulario;
     margin-bottom: 25px;
     font-size: 1.6rem;
 }
@@ -49,7 +49,7 @@
     width: 100%;
     padding: 12px 14px;
     border-radius: 8px;
-    border: 1px solid #cfd8dc;
+    border: $borde-formulario-input;
     font-size: 0.95rem;
     transition: border 0.2s, box-shadow 0.2s;
 }
